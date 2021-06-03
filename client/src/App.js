@@ -1,13 +1,18 @@
-import Footer from './Components/Footer'
+
 import React, { Component } from 'react'
-import '../src/index.css'
+import DemoCarousel from './Components/carousel'
+import Navbar from './Components/Navbar'
+import { BrowserRouter } from 'react-router-dom'
 
 export default class App extends Component {
   render() {
     return (
       <div>
-      
-        <Footer/>
+      <BrowserRouter>
+      <Navbar />
+      <DemoCarousel/>
+      </BrowserRouter>
+        
       </div>
     )
   }
