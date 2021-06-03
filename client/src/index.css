@@ -8,6 +8,42 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+    font-family: 'Dosis', sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+
+
+  div.container {
+  display: grid;
+  grid-template-columns: 190px 220px 220px 220px auto;
+  grid-column-gap: 50px; 
+  grid-row-gap: 20px; 
+  background-color: #78a8cf;
+  padding: 10px;
+}  
+
+img {
+  width: 100px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 220px 250px 270px 290px auto;
+  grid-column-gap: 150px;
+  grid-row-gap: 15px;
+  background-color: #78a8cf;
+  padding: 10px;
+  
+}
+
+#footer-text {
+  margin-top: 100px;
+  margin-left: 5px;
+}
+
+
+a:hover {
+  color: aqua;
+}
+
+
