@@ -17,9 +17,9 @@ code {
 
   div.container {
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  grid-column-gap: 50px;
-  grid-row-gap: 10px;
+  grid-template-columns: 190px 220px 220px 220px auto;
+  grid-column-gap: 50px; 
+  grid-row-gap: 20px; 
   background-color: #78a8cf;
   padding: 10px;
 }  
@@ -28,10 +28,22 @@ img {
   width: 100px;
   height: auto;
   display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  grid-column-gap: 50px;
-  grid-row-gap: 10px;
+  grid-template-columns: 220px 250px 270px 290px auto;
+  grid-column-gap: 150px;
+  grid-row-gap: 15px;
   background-color: #78a8cf;
   padding: 10px;
   
 }
+
+#footer-text {
+  margin-top: 100px;
+  margin-left: 5px;
+}
+
+
+a:hover {
+  color: aqua;
+}
+
+
