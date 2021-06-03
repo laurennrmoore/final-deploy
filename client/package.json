@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "bootstrap": "^4.3.1",
     "jquery": "^3.6.0",
     "react": "^17.0.2",
@@ -23,5 +24,16 @@
     "react-scripts": "^4.0.3",
     "styled-components": "^4.3.2",
     "yarn": "^1.22.10"
+=======
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "eslint": "^7.27.0",
+    "font-awesome": "^4.7.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-scripts": "^4.0.3"
+>>>>>>> 1a37926de15291627959040c20e33b6f8b1745d7
   }
 }
