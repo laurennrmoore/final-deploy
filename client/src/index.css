@@ -37,13 +37,17 @@ img {
 }
 
 #footer-text {
-  margin-top: 100px;
+  margin-top: 200px;
   margin-left: 5px;
 }
 
 
 a:hover {
   color: aqua;
+}
+
+p.container {
+  font-size: x-large;
 }
 
 

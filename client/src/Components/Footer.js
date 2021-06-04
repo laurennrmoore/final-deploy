@@ -1,3 +1,6 @@
+import React, { Component } from 'react';
+import '../About.css';
+
 import React from "react";
 import Cincinnati from "../img/footer-img/KrogerLogo.png";
 import CBell from "../img/footer-img/CincinnatiBell-logo.png";
