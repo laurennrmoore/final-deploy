@@ -1,53 +1,17 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace; */
-    font-family: 'Dosis', sans-serif;
-}
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+  .navlinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    font-size: 15px;
+    list-style-type: none;
+    background-color: clear;
+    
+  };
 
-
-  div.container {
-  display: grid;
-  grid-template-columns: 190px 220px 220px 220px auto;
-  grid-column-gap: 50px; 
-  grid-row-gap: 20px; 
-  background-color: #78a8cf;
-  padding: 10px;
-}  
-
-img {
-  width: 100px;
-  height: auto;
-  display: grid;
-  grid-template-columns: 220px 250px 270px 290px auto;
-  grid-column-gap: 150px;
-  grid-row-gap: 15px;
-  background-color: #78a8cf;
-  padding: 10px;
+  nav{
+  height: 80px;
   
-}
-
-#footer-text {
-  margin-top: 200px;
-  margin-left: 5px;
-}
-
-
-a:hover {
-  color: aqua;
-}
-
-p.container {
-  font-size: x-large;
-}
-
-
+  }
+  
