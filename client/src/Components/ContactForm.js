@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from 'react'
 
 const ContactForm = () => {
   const [status, setStatus] = useState("Submit");
@@ -22,8 +22,10 @@ const ContactForm = () => {
     let result = await response.json();
     alert(result.status);
   };
+
   return (
-    <form onSubmit={handleSubmit}>
+    <div>
+      <form onSubmit={handleSubmit}>
       <div>
         <label htmlFor="name">Name:</label>
         <input type="text" placeholder="Jeremiah Jones" id="name" required />
@@ -38,7 +40,8 @@ const ContactForm = () => {
       </div>
       <button type="submit">{status}</button>
     </form>
-  );
-};
+    </div>
+  )
+}
 
-export default ContactForm;
+export default ContactForm

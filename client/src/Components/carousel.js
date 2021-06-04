@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import { Carousel } from 'react-responsive-carousel';
-
-
-
 import Eden2 from '../img/Eden2.jpg';
 import Creationmuseum from '../img/Creationmuseum.jpg';
 import CAmuseum from '../img/CAmuseum.webp';
