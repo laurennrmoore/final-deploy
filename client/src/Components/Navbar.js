@@ -14,12 +14,14 @@ const Navbar = () => {
     //   $('#mainListDiv').fadeIn();
     // }
 
+
+    
     return (
         <header>
         <nav className="nav">
             <div className="container">
                 <div className="logo">
-                    <NavLink to="/">Cincinnati Tourism Group - Spring 2021</NavLink>
+                    <NavLink to="/">Cincinnati Tourism- Spring 2021</NavLink>
                 </div>
                 <div id="mainListDiv" className="main_list">
                     <ul className="navlinks">
@@ -36,4 +38,7 @@ const Navbar = () => {
     )
 };
 
-export default Navbar
+<Navbar fixed="top" />
+
+
+export default withRouter(Navbar)
