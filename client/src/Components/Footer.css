@@ -1,0 +1,42 @@
+
+
+
+.footer-container {
+  padding: 20px;
+  background-color: #deedf0;
+ 
+}
+
+img.sponsor-logo{
+  padding: 15px 65px 30px 30px; 
+  width: 120px; 
+  
+}
+
+div#sponsor-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #fff;
+}
+
+h4 {
+  color: #03256c;
+}
+#footer-text {
+  color: #03256c;
+}
+a:hover {
+  background-color: aqua;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns:15em 15em auto;
+  padding: 10px;
+  font-size: 30px;
+  font-style: oblique;
+  
+}
