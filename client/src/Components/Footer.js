@@ -11,10 +11,11 @@ import Macy from "../img/footer-img/Macy-logo.jpg";
 import CincinnatiRed from "../img/footer-img/cincinRed.jpg";
 import cincyZoo from "../img/footer-img/cincyZoo.png";
 import Skylinechili from "../img/footer-img/skyline_logo.png";
-// import linkedin from "../img/footer-img/linkedin-log.png";
 import '../../node_modules/font-awesome/css/font-awesome.min.css'; 
 import { TiSocialLinkedin } from "react-icons/ti";
+import { TiSocialFacebookCircular } from "react-icons/ti";
 import { MdFavoritehearts } from "react-icons/md";
+
 const Footer = () => (
    <div className="footer-container">
    <div className="container" id="sponsor-container">
@@ -33,23 +34,24 @@ const Footer = () => (
         <h2 id="creators">CREATORS</h2>
     <div className="grid-container">
       <div className='name1'>
-            <h4>Lauren Moore </h4>
-            <p><a id="Lauren" href="https://www.linkedin.com/in/lauren-m-a233b321/"><TiSocialLinkedin color="blue" size="3em"></TiSocialLinkedin></a></p> 
+            <h4 className="Lauren">Lauren Moore </h4>
+            <a id="Lauren" href="https://www.linkedin.com/in/lauren-m-a233b321/"><TiSocialLinkedin color="blue" size="3em"></TiSocialLinkedin></a>
       </div> 
       
       <div className='name2'>
-            <h4>Marquis Jarman</h4>
-            <p><a id="Marquis" href="https://www.linkedin.com/in/marquis-jarman-9a1113210//"><TiSocialLinkedin color="blue" size="3em" ></TiSocialLinkedin></a></p> 
+            <h4 className='Marquis'>Marquis Jarman</h4>
+            <a id="Marquis" href="https://www.linkedin.com/in/marquis-jarman-9a1113210//"><TiSocialLinkedin color="blue" size="3em" ></TiSocialLinkedin></a>
       </div>  
 
       <div className='name3'>     
-            <h4>Mona Jira</h4>
-            <p><a id="Mona" href="https://www.linkedin.com/in/mona-jiravirotekul-26347768/"><TiSocialLinkedin color="blue" size="3em" ></TiSocialLinkedin></a></p> 
+            <h4 className='Mona'>Mona Jira</h4>
+            <a id="Mona" href="https://www.linkedin.com/in/mona-jiravirotekul-26347768/"><TiSocialLinkedin color="blue" size="3em" ></TiSocialLinkedin></a>
     </div>
       </div> 
-            <p id="footer-text">We devoted our times and <a href="MdFavoritehearts"></a>heart to create the content of our beloved city.
+            <p id="footer-text">We devoted our times and <a href="MdFavoritehearts"></a>
+            heart to create the content of our beloved city.
              Hope you guys find it is useful infomation when you travel in our hometown. 
-             Let us know. </p>
+             Let us know<TiSocialFacebookCircular color="blue" size="1.8em"></TiSocialFacebookCircular></p>
       
      
       </div>
