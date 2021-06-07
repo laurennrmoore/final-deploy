@@ -1,6 +1,7 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom'
-import $ from 'jquery'
+import { NavLink } from 'react-router-dom';
+// import $ from 'jquery';
+
 
 
 
@@ -13,32 +14,31 @@ const Navbar = () => {
     //   $('#mainListDiv').fadeIn();
     // }
 
+
+    
     return (
         <header>
         <nav className="nav">
             <div className="container">
                 <div className="logo">
-                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/">Cincinnati Tourism- Spring 2021</NavLink>
                 </div>
                 <div id="mainListDiv" className="main_list">
                     <ul className="navlinks">
-                    <li>Cincinnati Tourism - Spring 2021</li>
-                    <li><NavLink to="/about">About</NavLink></li>
-                    <li><NavLink to="/about">Our Story</NavLink></li>
-                    <li><NavLink to="/contact">Newsletter</NavLink></li>
+                    <li><NavLink to="/Home">Home</NavLink></li>
+                    <li><NavLink to="/Covid 19">Covid 19</NavLink></li>
+                    <li><NavLink to="/About">About</NavLink></li>
+                    <li><NavLink to="/Our Story">Our Story</NavLink></li>
                     <li><NavLink to="/contact">Contact</NavLink></li>
-                    
                     </ul>
                 </div>
-                {/* <span onClick={handleClick} className="navTrigger">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                </span> */}
-            </div>
-        </nav>
+             </div>
+           </nav>
         </header>
     )
-}
+};
 
-export default Navbar
+<Navbar fixed="top" />
+
+
+export default withRouter(Navbar)
