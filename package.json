@@ -13,6 +13,10 @@
     "font-awesome": "^4.7.0",
     "mongoose": "^5.12.12",
     "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+
+    
+
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-responsive-carousel": "^3.2.18",
