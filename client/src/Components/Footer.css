@@ -9,7 +9,7 @@
 
 img.sponsor-logo{
   padding: 15px 65px 30px 30px; 
-  width: 120px; 
+  width: 200px; 
   
 }
 
@@ -21,16 +21,6 @@ div#sponsor-container {
   background-color: #fff;
 }
 
-h4 {
-  color: #03256c;
-}
-#footer-text {
-  color: #03256c;
-}
-a:hover {
-  background-color: aqua;
-}
-
 
 .grid-container {
   display: grid;
@@ -40,3 +30,30 @@ a:hover {
   font-style: oblique;
   
 }
+
+#creators {
+  color: #47597e;
+
+}
+#Lauren :hover {
+  background-color: #ac66cc;
+}
+
+#Marquis :hover {
+  background-color: #ac66cc;
+}
+
+#Mona :hover {
+  background-color: #ac66cc;
+}
+
+.Lauren, .Marquis, .Mona {
+  color: #3b14a7;
+}
+
+
+#footer-text {
+  color: #2541b2;
+}
+
+   

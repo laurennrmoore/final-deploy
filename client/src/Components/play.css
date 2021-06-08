@@ -1,0 +1,7 @@
+.eat-container {
+    background-color: aqua;
+    align-items: flex-start;
+}
+ #A {
+     display: flexbox;
+ }
