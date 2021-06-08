@@ -27,7 +27,7 @@ const Navbar = () => {
                 </div>
                 <div id="mainListDiv" className="main_list">
                     <ul className= "navlinks">
-                    <li><NavLink style={{textDecoration: 'none'}}to="/Covid">Covid</NavLink></li>
+                    <li><NavLink style={{textDecoration: 'none'}}to="/Covid">Covid-19</NavLink></li>
                     <li><NavLink style={{textDecoration: 'none'}} to="/Home">Home</NavLink></li>
                      <li><NavLink style={{textDecoration: 'none'}}to="/About">About</NavLink></li>
                     {/* <li><NavLink style={{textDecoration: 'none'}}to="/Our Story">Our Story</NavLink></li> */}

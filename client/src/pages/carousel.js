@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
+import New from '../Components/Play';
 import Eden2 from '../img/Eden2.jpg';
 import Creationmuseum from '../img/Creationmuseum.jpg';
 import CAmuseum from '../img/CAmuseum.webp';
@@ -25,11 +26,10 @@ import Oktoberfest from '../img/Oktoberfest.jpg';
 import Ark from '../img/Ark.jpg';
 import Riverboat2 from '../img/Riverboat2.jpg';
 import Hr from '../img/Hr.jpg';
-
-
 class DemoCarousel extends Component {
     render() {
         return (
+            <div>
             <Carousel>
              <div>
                  <img alt='image' src= {Eden2} />
@@ -127,21 +127,13 @@ class DemoCarousel extends Component {
                     <img alt='image' src= {Riverboat2} />
                     <p className="legend">Legend 16</p>
                 </div>
-              
                 <div>
                     <img alt='image' src= {Hr} />
                     <p className="legend">Legend 17</p>
                 </div>
                 </Carousel>
+                </div>
         );
     }
 }
-
 export default DemoCarousel
-
-// Don't forget to include the css in your page
-
-// Using webpack
-
-// Using html tag:
-// <link rel="stylesheet" href="<NODE_MODULES_FOLDER>/react-responsive-carousel/lib/styles/carousel.min.css"/>
