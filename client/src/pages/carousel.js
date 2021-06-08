@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
+import New from '../Components/Play';
 import Eden2 from '../img/Eden2.jpg';
 import Creationmuseum from '../img/Creationmuseum.jpg';
 import CAmuseum from '../img/CAmuseum.webp';
@@ -25,11 +26,13 @@ import Oktoberfest from '../img/Oktoberfest.jpg';
 import Ark from '../img/Ark.jpg';
 import Riverboat2 from '../img/Riverboat2.jpg';
 import Hr from '../img/Hr.jpg';
+import Play from '../Components/Play'
 
 
 class DemoCarousel extends Component {
     render() {
         return (
+            <div>
             <Carousel>
              <div>
                  <img alt='image' src= {Eden2} />
@@ -133,6 +136,8 @@ class DemoCarousel extends Component {
                     <p className="legend">Legend 17</p>
                 </div>
                 </Carousel>
+                <Play />
+                </div>
         );
     }
 }

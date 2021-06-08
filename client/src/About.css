@@ -13,8 +13,14 @@ img.bg-about-img {
 } 
 
 .about-container{
-    background-color: #39a6a3;
+    background: #39a6a3;
+    animation: mymove 5s infinite;
 }
+@keyframes  mymove {
+    from {background-color: #39a6a3 ;}
+    to {background-color: rgb(142, 142, 211) ;}
+}
+
 #about-img{
     display: flex;
     justify-content: space-evenly;
