@@ -48,10 +48,10 @@ const Footer = () => (
             <a id="Mona" href="https://www.linkedin.com/in/mona-jiravirotekul-26347768/"><TiSocialLinkedin color="blue" size="3em" ></TiSocialLinkedin></a>
     </div>
       </div> 
-            <p id="footer-text">We devoted our times and <a href="MdFavoritehearts"></a>
+            <p id="footer-text">We devoted our time and <a href="MdFavoritehearts"></a>
             heart to create the content of our beloved city.
-             Hope you guys find it is useful infomation when you travel in our hometown. 
-             Let us know<TiSocialFacebookCircular color="blue" size="1.8em"></TiSocialFacebookCircular></p>
+             We hope you guys find it is useful infomation when you travel in our hometown. 
+             Let us know.<TiSocialFacebookCircular color="blue" size="1.8em"></TiSocialFacebookCircular></p>
       
      
       </div>

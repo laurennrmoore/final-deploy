@@ -4,10 +4,10 @@ import Navbar from './Components/Navbar';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import "./index.css";
 import './Carousel.css';
-// import ContactForm from './Components/ContactForm'
+import ContactForm from './pages/ContactForm';
 import Footer from './Components/Footer';
 import About from './pages/About';
-import Covid from './Components/Covid'
+import Covid from './Components/Covid';
 export default class App extends Component {
   render() {
     return (
@@ -18,7 +18,8 @@ export default class App extends Component {
       <Route exact path='/' component={ DemoCarousel }/>
       <Route path='/about' component= { About }/>
       <Route path='/Covid' component= { Covid } />
-    {/* <Route path='/contact' component={ContactForm}/> */}
+      
+      <Route path='/contact' component={ContactForm}/>
       <Footer/>
       </BrowserRouter>
       </div>

@@ -26,11 +26,22 @@ import Oktoberfest from '../img/Oktoberfest.jpg';
 import Ark from '../img/Ark.jpg';
 import Riverboat2 from '../img/Riverboat2.jpg';
 import Hr from '../img/Hr.jpg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 class DemoCarousel extends Component {
+    componentDidMount() {
+        // or simply just AOS.init();
+        AOS.init({
+          // initialise with other settings
+          duration : 2000
+        });
+      }
+
     render() {
         return (
             <div>
-            <Carousel>
+            <Carousel data-aos="fade-right">
              <div>
                  <img alt='image' src= {Eden2} />
                 <p className="legend">Legend 17</p>
@@ -132,7 +143,9 @@ class DemoCarousel extends Component {
                     <p className="legend">Legend 17</p>
                 </div>
                 </Carousel>
+                <div data-aos="fade-right">
                 <Play />
+                </div>
                 </div>
         );
     }
