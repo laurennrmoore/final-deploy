@@ -1,7 +1,7 @@
 import React from 'react';
 
 import '../Components/covid.css';
-import covidppic from './images/covidpic.png';
+// import covidppic from './images/covidpic.png';
 
 
 

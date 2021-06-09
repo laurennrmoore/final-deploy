@@ -7,15 +7,19 @@ const nodemailer = require("nodemailer");
 require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 7000;
+const PORT = process.env.PORT || 5000;
 
 
 
 app.use(cors());
 app.use(express.json());
 app.use(express.static('client/build'))
-app.use("/", router);
-app.listen(5000, () => console.log("Server Running"));
+
+const attractionsRouter = require('./Routes/Attractions.Routes');
+
+
+app.use("/attractions", attractionsRouter);
+
 const uri = process.env.ATLAS_URI;
         
 mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true }
@@ -27,8 +31,8 @@ connection.once('open', () => {
 
 
 
-app.listen(port, () => {
-    console.log(`Server is running on port: ${port}`);
+app.listen(PORT, () => {
+    console.log(`Server is running on port: ${PORT}`);
 });
 
 
