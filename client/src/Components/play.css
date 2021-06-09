@@ -1,7 +1,268 @@
-.eat-container {
-    background-color: aqua;
-    align-items: flex-start;
+ 
+
+.queenCity {
+    background-color: grey;
+    color: honeydew;
+    text-align: center;
+    
+    
 }
+
+.eat-container {
+    background-color: coral;
+    text-align: center;
+}
+
+h1.easy-header {
+   color:cornsilk;
+   margin-top: -100px;
+}
+h1.play-header {
+   color:cornsilk;
+   font-weight: 500;
+   margin-top: 20px;
+
+}
+#abstract {
+   width: 100px;
+}
+
+#swirl {
+   
+   transform: rotate(35deg);
+   width: 200px;
+   
+}
+  
  #A {
-     display: flexbox;
+     border: white solid 3px;
+     border-radius: 10%;
+     margin: 0px;
+     transform: rotate(350deg);
+     z-index: -1;
+    
  }
+
+ #B {
+     border: white solid 3px;
+     border-radius: 10%;
+     margin: -50px;
+     margin-top: 50px;
+     transform: rotate(10deg);
+     
+ }
+
+ #C {
+    border: white solid 3px;
+    border-radius: 10%;
+    transform: rotate(20deg);
+    width: 20em; 
+ }
+
+ #D {
+    border: white solid 3px;
+    border-radius: 10%;
+    margin-top: 40px;
+    margin-left: -50px;
+    transform: rotate(354deg);
+    width: 20em;
+    z-index: -1; 
+    
+ }
+ #E {
+    border: white solid 3px;
+    border-radius: 10%; 
+    margin-bottom: 25px;
+    transform: rotate(20deg);
+    width: 15em;
+ }
+
+ #cheese {
+    position: relative;
+    width: 5em;
+ }
+
+ #plate {
+    margin-left: 200px;
+    width: 5em;
+ }
+
+ #bbq {
+    flex-direction: column;
+    margin-left: 200px;
+    position: absolute;
+    width: 5em;
+    
+ }
+
+ /* Shop section */
+ .shop-container {
+     background-color:#fff;
+     margin-top: 30px;
+     text-align: center;
+     
+ }
+
+ #F {
+    border: white solid 3px; 
+    border-radius: 10%; 
+    transform: rotate(350deg);
+    width: 20em;
+ }
+
+ #G {
+    border: white solid 3px; 
+    border-radius: 10%; 
+    transform: rotate(20deg);
+    width: 18em;
+ }
+
+ #H {
+    border: white solid 3px; 
+    border-radius: 10%; 
+    transform: rotate(350deg);
+    width: 18em;
+ }
+
+ #I {
+    border: white solid 3px;
+    border-radius: 10%; 
+    transform: rotate(15deg);
+    width: 20em;
+ }
+
+ #graphics {
+    justify-items: flex-start;
+    margin-top: 20px;
+    
+ }
+
+ #queencity {
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 60px;
+ }
+
+ #daffodil {
+    width: 60px;
+ }
+
+ #silhouetteShopping {
+   width: 80px;
+ }
+
+ #summerShopping {
+   width: 85px;
+   z-index: -1;
+   
+ }
+
+ #butterfly {
+   width: 80px;
+ }
+
+ #butterflies {
+   width: 90px;
+ }
+
+ #butterflyside {
+    margin-top: 25px;
+    transform: rotate(320deg);
+    width: 100px;
+    z-index: 1;
+ }
+
+ #butterflyside2 {
+   transform: rotate(330deg);
+   width: 80px;
+}
+#butterflyside3 {
+   width: 60px;
+}
+
+
+
+ /* PLAY SECTION */
+ .play-container {
+     align-items: center; 
+     background-color: coral;
+     margin-top: 20px;
+     text-align: center;
+ } 
+
+ #ornament {
+   display: flex;
+   margin-bottom: 200px;
+   margin-right: 250px;
+   transform: rotate(80deg);
+   width: 300px;
+}
+ #J {
+   border: white solid 3px; 
+   border-radius: 10%; 
+   margin-top: -700px;
+   margin-left: 15px;
+   transform: rotate(350deg);
+   width:21em;
+  
+ }
+
+ 
+ #K {
+   border: white solid 3px; 
+   border-radius: 10%;
+   margin-left: -20px; 
+   margin-top: -710px;
+   transform: rotate(20deg);
+   width: 22em;
+  
+ }
+ #L {
+    border: white solid 3px;
+    border-radius: 10%;  
+    margin-right: -20px;
+    margin-top: -710px;
+    transform: rotate(350deg);
+    width: 22em;
+ }
+
+ #M {
+    border: white solid 3px; 
+    border-radius: 10%; 
+    margin-right: -20px;
+    margin-top: -500px;
+    transform: rotate(350deg);
+    width: 25em;
+    z-index: -1;
+ }
+ #ferriswheel {
+   width: 200px;
+   margin-top: -550px;
+   margin-left: 50px;
+}
+
+ 
+#spring {
+   width: 200px;
+   margin-left: 750px;
+   margin-top: -500px;
+}
+
+#tree {
+   margin-right: 10px;
+   margin-bottom: 300px;
+   margin-top: -250px;
+   width: 100px;
+} 
+
+#flora {
+   margin-right: 300px;
+   margin-top: -320px;
+   width: 100px;
+   
+}
+ #orchids {
+   margin-left: -120px;
+   margin-top: -320px;
+   width: 100px;
+} 

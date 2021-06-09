@@ -14,9 +14,9 @@ export default class App extends Component {
       <div>
       <BrowserRouter>
       <Navbar />
-      {/* <DemoCarousel/>  */}
-      <Route exact path='/' component={ DemoCarousel }/>
-      <Route path='/about' component= { About }/>
+       {/* <DemoCarousel/>     */}
+      <Route exact path='/' component= { DemoCarousel } />
+      <Route path='/about' component= { About } />
       <Route path='/Covid' component= { Covid } />
       
       <Route path='/contact' component={ContactForm}/>
