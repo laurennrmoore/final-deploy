@@ -20,12 +20,12 @@ const About = () => {
             <div className="About-images" id="about-img">
               
 
-               <img className="bg-about-img" id="B" alt='' src= { cliff } />
-               <img className="bg-about-img" id="F" alt='' src= { legShot } />
+               <img className="bg-about-img" id="aboutB" alt='' src= { cliff } />
+               <img className="bg-about-img" id="aboutF" alt='' src= { legShot } />
 
             <div className="float-right col-3">
-                <img className="bg-about-img" id="C" alt='' src= { concert } />
-                <img className="bg-about-img" id="E" alt='' src= { eatout } /> 
+                <img className="bg-about-img" id="aboutC" alt='' src= { concert } />
+                <img className="bg-about-img" id="aboutE" alt='' src= { eatout } /> 
             </div>
               
             </div>
