@@ -50,7 +50,7 @@ const Footer = () => (
       </div> 
             <p id="footer-text">We devoted our time and <a href="MdFavoritehearts"></a>
             heart to create the content of our beloved city.
-             We hope you guys find it is useful infomation when you travel in our hometown. 
+             We hope you guys find that it's useful infomation when you travel in our hometown. 
              Let us know.<TiSocialFacebookCircular color="blue" size="1.8em"></TiSocialFacebookCircular></p>
       
      
