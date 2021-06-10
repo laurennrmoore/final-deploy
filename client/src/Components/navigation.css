@@ -6,29 +6,33 @@
     width: 100vw;
     font-size: 17px;
     list-style-type: none;
-    background-color: rgb(255, 239, 234);
+    background-color: #346751;
     text-decoration: none;
     margin-bottom: 0px;
   };
 
   .navlinks a{
   text-decoration: none;
-  
+  }
+
+  #logo {
+    width: 65px;
+    margin-left: -310px;
   }
 
 .navlinks a:visited{
-color: black;
+color: #fff;
 }
 
 .navlinks a:hover{
 background-color: rgb(245, 234, 231);
-
+margin-left: 0px;
 }
 
 .navbar{
 height: 10px;
-
 }
+
 
 .navlinks li{
 height: 50px;
@@ -38,8 +42,14 @@ margin-bottom: 5px;
 }    
 
 
-/* a#header.active {
-  color: black;
- margin-left: 50px;
- margin-bottom: 10px;
- } */
+ div.container{
+ margin-left: 0px;
+ }
+
+
+
+  .cincylogo{
+  display: flex;
+  margin-left: -60px;
+  margin-top: 0px;
+  }

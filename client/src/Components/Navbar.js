@@ -1,8 +1,9 @@
 import React from 'react';
 import { NavLink, withRouter } from 'react-router-dom';
 import cincy_favicon from "../img/footer-img/cincy_favicon.jpg";
+import logo from "../img/body-img/logo.jpg";
 import '../Components/navigation.css'
-
+import Cincylogo from "../img/footer-img/cincylogo.jpg";
 
 const Navbar = () => {
        // const handleClick = e => {
@@ -15,15 +16,19 @@ const Navbar = () => {
    
     return (
         <header>
-        <nav className="nav">
+          <nav className="nav">
             <div className="container">
              
-                <a href="/">
-                <img className="navbarlogo" alt='' src= { cincy_favicon } /> 
-                </a>
+                {/* <a href="/">
+                <img className="navbarlogo" alt='' src= { cincy-logo } /> 
+                </a> */}
                 <div id="mainListDiv" className="main_list">
-
                     <ul className="navlinks">
+
+
+    <li><NavLink to="/NotHome"><img className="cincylogo" id="logo" height="50
+    5px" width="120px" alt='' src= { Cincylogo } /></NavLink></li>
+                      
                     <li><NavLink to="/NotHome">Attractions</NavLink></li>
                     <li><NavLink to="/Covid">Covid 19</NavLink></li>
                     <li><NavLink to="/About">About</NavLink></li>
@@ -38,5 +43,7 @@ const Navbar = () => {
 
 <Navbar fixed="top" />
 
-
 export default withRouter(Navbar)
+
+
+

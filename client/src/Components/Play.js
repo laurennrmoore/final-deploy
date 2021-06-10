@@ -41,21 +41,20 @@ import tree from '../img/body-img/tree.png';
 import orchids from '../img/body-img/orchids.png';
 import ferriswheel from '../img/body-img/ferriswheel.png';
 import abstract from '../img/body-img/abstract.png';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
 export default class Play extends Component{
   render(){
     return (
-        <div className="body-container"> 
+        <div className="body-container" data-aos="fade-right"> 
         <h1 className="queenCity">Explore the Queen city with <span>eat.shop.play</span></h1>
           <div className="eat-container">
-          <img className="body-img" id="swirl" alt='' src= { swirl} />
-          <h1 className="easy-header"><br/>EAT</h1>
-          <p>Enjoy a traditional lei greeting and experience a luau on Oahu. Hosted by Chief Sielu, Original World Fire Knife Dance Champion, this event provides the ideal opportunity to immerse yourself in island culture. Watch a Polynesian show, learn headband weaving, or take a hula lesson, before indulging in a Hawaiian feast, including pineapple glazed chicken and kalua pork. Upgrade to include priority access and convenient pickup, for a hassle-free experience.
-
-          Read more about Chief's Luau Admission 2021 - Oahu - https://www.viator.com/tours/Oahu/Chiefs-Luau-Admission/d672-6981CHIEFLUAU?mcid=56757</p>
+          <img className="body-img" id="swirl" data-aos="fade-left" alt='' src= { swirl} />
+          <h1 className="easy-header" data-aos="fade-left"><br/>EAT</h1>
+          <p>Enjoy a traditional lei greeting and experience a luau on Oahu. Hosted by Chief Sielu, Original World Fire Knife Dance Champion, this event provides the ideal opportunity to immerse yourself in island culture. Watch a Polynesian show, learn headband weaving, or take a hula lesson, before indulging in a Hawaiian feast, including pineapple glazed chicken and kalua pork. Upgrade to include priority access and convenient pickup, for a hassle-free experience.</p>
 
                <img className="body-img" id="A" alt='' src= { chilidish } />
                <img className="body-img" id="B" alt='' src= { chiliver } />
@@ -70,18 +69,22 @@ export default class Play extends Component{
           </div>
 
           <div className="shop-container">
-          <img className="body-img" id="butterflyside" alt='' src= { butterflyside } />
-          <img className="body-img" id="butterflyside2" alt='' src= { butterflyside } />
-          <img className="body-img" id="butterflyside3" alt='' src= { butterflyside } />
-          <h1>SHOP</h1>
-          <p>Enjoy a traditional lei greeting and experience a luau on Oahu. Hosted by Chief Sielu, Original World Fire Knife Dance Champion, this event provides the ideal opportunity to immerse yourself in island culture. Watch a Polynesian show, learn headband weaving, or take a hula lesson, before indulging in a Hawaiian feast, including pineapple glazed chicken and kalua pork. Upgrade to include priority access and convenient pickup, for a hassle-free experience.
+             
+          <div data-aos="fade-right">
+               <img className="body-img" id="butterflyside" alt='' src= { butterflyside } />
+               <img className="body-img" id="butterflyside2" alt='' src= { butterflyside } />
+               <img className="body-img" id="butterflyside3" alt='' src= { butterflyside } />
+          </div>
+          
+          <div data-aos="fade-left">
+          <h1 data-aos="fade-up">SHOP</h1>
+          <p>Enjoy a traditional lei greeting and experience a luau on Oahu. Hosted by Chief Sielu, Original World Fire Knife Dance Champion, this event provides the ideal opportunity to immerse yourself in island culture. Watch a Polynesian show, learn headband weaving, or take a hula lesson, before indulging in a Hawaiian feast, including pineapple glazed chicken and kalua pork. Upgrade to include priority access and convenient pickup, for a hassle-free experience.</p><br/>
 
-          Read more about Chief's Luau Admission 2021 - Oahu - https://www.viator.com/tours/Oahu/Chiefs-Luau-Admission/d672-6981CHIEFLUAU?mcid=56757</p>
                <img className="body-img" id="F" alt='' src= { Shopcincyshirts } />
                <img className="body-img" id="G" alt='' src= { ShopLaneKate } />
                <img className="body-img" id="H" alt='' src= { Shopoutlet2 } />
                <img className="body-img" id="I" alt='' src= { shopping } />
-
+          </div>
                <div className="graphics" id="graphics">
                    <img className="body-img" id="queencity" alt='' src= { queencity } />
                    <img className="body-img" id="daffodil" alt='' src= { daffodil } />
@@ -94,13 +97,18 @@ export default class Play extends Component{
               
 
           </div>
-
+      <div data-aos="fade-left">
           <div className="play-container">
-          <img className="body-img" id="abstract" alt='' src= { abstract } />
-          <h1 className="play-header">PLAY</h1>
-          <p>Enjoy a traditional let greeting and experience a luau on Oahu. Hosted by Chief Sielu, Original World Fire Knife Dance Champion, this event provides the ideal opportunity to immerse yourself in island culture. Watch a Polynesian show, learn headband weaving, or take a hula lesson, before indulging in a Hawaiian feast, including pineapple glazed chicken and kalua pork. Upgrade to include priority access and convenient pickup, for a hassle-free experience.
+          <div className="flowerstext" data-aos="fade-left">
+               <img className="body-img" id="abstract" alt='' src= { abstract } />
+               <img className="body-img" id="abstract" alt='' src= { abstract } />
+               <img className="body-img" id="abstract" alt='' src= { abstract } />
+         </div>
+               <h1 className="play-header" data-aos="fade-up">PLAY</h1>
 
-           Read more about Chief's Luau Admission 2021 - Oahu -</p>
+               <p>Enjoy a traditional let greeting and experience a luau on Oahu. Hosted by Chief Sielu, Original World Fire Knife Dance Champion, this event provides the ideal opportunity to immerse yourself in island culture. Watch a Polynesian show, learn headband weaving, or take a hula lesson, before indulging in a Hawaiian feast, including pineapple glazed chicken and kalua pork. Upgrade to include priority access and convenient pickup, for a hassle-free experience.
+              </p>
+
                <img className="body-img" id="ornament" alt='' src= { ornament } />
                <img className="body-img" id="J" alt='' src= { playFlyer2 } />
                <img className="body-img" id="K" alt='' src= { playGhostTour } />
@@ -111,6 +119,10 @@ export default class Play extends Component{
                <img className="body-img" id="ferriswheel" alt='' src= { ferriswheel } />
                <img className="body-img" id="tree" alt='' src= { tree } />
                <img className="body-img" id="spring" alt='' src= { spring } />
+        </div>
+
+
+  
                
                
                
