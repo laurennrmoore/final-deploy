@@ -3,7 +3,7 @@
 
 .footer-container {
   padding: 20px;
-  background-color: #deedf0;
+  background-color:ivory;
  
 }
 
@@ -36,20 +36,20 @@ div#sponsor-container {
 
 }
 #Lauren :hover {
-  background-color: #ac66cc;
+  background-color: grey;
 }
 
 #Marquis :hover {
-  background-color: #ac66cc;
+  background-color: grey;
 }
 
-#Mona :hover {
-  background-color: #ac66cc;
-}
+ #Mona :hover {
+  background-color: grey;
+} 
 
-.Lauren, .Marquis, .Mona {
+/* .Lauren, .Marquis, .Mona {
   color: #3b14a7;
-}
+} */
 
 
 #footer-text {
