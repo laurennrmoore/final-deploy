@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DemoCarousel from './pages/Carousel';
+import DemoCarousel from './pages/carousel';
 import Navbar from './Components/Navbar';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import "./index.css";

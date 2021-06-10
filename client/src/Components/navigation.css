@@ -6,7 +6,7 @@
     width: 100vw;
     font-size: 17px;
     list-style-type: none;
-    background-color: rgb(255, 239, 234);
+    background-color: #346751;
     text-decoration: none;
     margin-bottom: 0px;
   };
@@ -16,8 +16,13 @@
   
   }
 
+  #logo {
+    width: 65px;
+    margin-left: -310px;
+  }
+
 .navlinks a:visited{
-color: black;
+color: #fff;
 }
 
 .navlinks a:hover{
