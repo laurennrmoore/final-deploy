@@ -14,8 +14,12 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 app.use(express.static('client/build'))
-app.use("/", router);
-app.listen(PORT, () => console.log("Server Running"));
+
+const attractionsRouter = require('./Routes/Attractions.Routes');
+
+
+app.use("/attractions", attractionsRouter);
+
 const uri = process.env.ATLAS_URI;
         
 mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true }
@@ -23,6 +27,12 @@ mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true, useUnifiedT
 const connection = mongoose.connection;
 connection.once('open', () => {
     console.log("MongoDB database connection established successfully");
+});
+
+
+
+app.listen(PORT, () => {
+    console.log(`Server is running on port: ${PORT}`);
 });
 
 
