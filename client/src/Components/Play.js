@@ -50,7 +50,7 @@ export default class Play extends Component{
   render(){
     return (
         <div className="body-container" data-aos="fade-right"> 
-        <h1 className="queenCity">Explore the Queen city with <span>eat.shop.play</span></h1>
+        <h1 className="queenCity">Explore The Queen city. Be sure to <span> eat, shop & play</span></h1>
           <div className="eat-container">
           <img className="body-img" id="swirl" data-aos="fade-left" alt='' src= { swirl} />
           <h1 className="easy-header" data-aos="fade-left"><br/>EAT</h1>
