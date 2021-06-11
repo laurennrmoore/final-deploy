@@ -32,10 +32,11 @@ const About = () => {
             
                 <div className="About-bg-text">
                   <h4 className="center" id="aboutTitle">About</h4>
-                     <p> We love Cincinnati and want to share the best of our city's offerings with you. We live, work and play here. Our mission is connecting you to the sights, sounds,adventures and events of our city. We want you and your families to enjoy the finest of what Cincinnati has to offer.We’d love to connect with you on social media. Share your experience with us! Join our newsletter community, called Club Cincinnati for discounts, coupons and special offers. Thank you for visiting our city, and we hope you enjoy your visit.</p>
+                     <p> Welcome. We love Cincinnati and want to share the best of it with you. We live, work and play here. Our mission is connecting you to the sights, sounds, and events in our city. 
+                      We’d love to connect with you on social media. Please share your experiences with us on Facebook, or leave us a message on our contact page.
+                      Thank you for visiting our city, and we hope that you enjoy your visit.</p>
                 </div>
-                     
-        </div>
+          </div>
     )
 };
 export default About;

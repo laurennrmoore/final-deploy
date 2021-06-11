@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink, withRouter } from 'react-router-dom';
-import cincy_favicon from "../img/footer-img/cincy_favicon.jpg";
+// import cincy_favicon from "../img/footer-img/cincy_favicon.jpg";
 import logo from "../img/body-img/logo.jpg";
 import '../Components/navigation.css'
 import Cincylogo from "../img/footer-img/cincylogo.jpg";
