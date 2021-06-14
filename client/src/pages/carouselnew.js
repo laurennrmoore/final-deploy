@@ -39,55 +39,55 @@ class CarouselNew extends Component {
             </div>
       
             <div>
-                <img alt='image' src= { Bconey } />
+                <img alt='' src= { Bconey } />
                 <p className="legend"></p>
             </div>
 
 
             <div>
-                <img alt='image' src= { Ccincinnatioh } />
+                <img alt='' src= { Ccincinnatioh } />
                 <p className="legend"></p>
             </div>
 
             <div>
-                <img alt='image' src= { DfountainSquare } />
+                <img alt='' src= { DfountainSquare } />
                 <p className="legend"></p>
             </div>
 
             
 
             <div>
-                <img alt='image' src= { ESkywheel } />
+                <img alt='' src= { ESkywheel } />
                 <p className="legend"></p>
             </div>
 
             <div>
-                <img alt='image' src= { FShopKwmall } />
+                <img alt='' src= { FShopKwmall } />
                 <p className="legend"></p>
             </div>
 
             <div>
-                <img alt='image' src= { Gbigcincy } />
+                <img alt='' src= { Gbigcincy } />
                 <p className="legend"></p>
             </div>
 
             <div>
-                <img alt='image' src= { HeatAbigailStreet } />
+                <img alt='' src= { HeatAbigailStreet } />
                 <p className="legend"></p>
             </div>
 
             <div>
-                <img alt='image' src= { IEden2 } />
+                <img alt='' src= { IEden2 } />
                 <p className="legend"></p>
             </div>
 
             <div>
-                <img alt='image' src= { JLion } />
+                <img alt='' src= { JLion } />
                 <p className="legend"></p>
             </div>
 
             <div>
-                <img alt='image' src= { KSkydiving } />
+                <img alt='' src= { KSkydiving } />
                 <p className="legend"></p>
             </div>
 
