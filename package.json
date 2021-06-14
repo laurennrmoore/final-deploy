@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "concurrently": "^6.2.0",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "eslint-config-react-app": "^6.0.0",
@@ -20,17 +21,23 @@
     "react-motion": "^0.5.2",
     "react-responsive-carousel": "^3.2.18",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
     "start": "^5.1.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "client": "cd client && npm start",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start": "node server.js",
+    "dev": "concurrently \"npm start\" \"cd client && npm start\""
   },
-  "engines": {"node": "14.x"},
+  "engines": {
+    "node": "14.x"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",

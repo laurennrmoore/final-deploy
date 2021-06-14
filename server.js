@@ -2,8 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const path = require('path');
-// const router = express.Router();
-// const nodemailer = require("nodemailer");
+
 require('dotenv').config();
 
 const app = express();
@@ -15,19 +14,21 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static('client/build'))
 
-const attractionsRouter = require('./Routes/Attractions.Routes');
+const uri = "mongodb+srv://mjarman1:Indians40@cluster0.wh36m.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
-
-app.use("/attractions", attractionsRouter);
-
-const uri = process.env.ATLAS_URI;
-        
 mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true }
 );
 const connection = mongoose.connection;
 connection.once('open', () => {
     console.log("MongoDB database connection established successfully");
 });
+
+const attractionsRouter = require('./Routes/Attractions.Routes');
+
+
+app.use("/attractions", attractionsRouter);
+
+        
 
 
 if (process.env.NODE_ENV === 'production') {

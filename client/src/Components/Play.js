@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-import NavBar from './Navbar';
-import Footer from './Footer';
+// import NavBar from './Navbar';
+// import Footer from './Footer';
 import './play.css';
 
 import chilidish from '../img/body-img/chilidish.jpg';
 import chiliver from '../img/body-img/chiliver.jpg';
-import chilidinner from '../img/body-img/chilidinner.jpg';
+// import chilidinner from '../img/body-img/chilidinner.jpg';
 import icecreamcups from '../img/body-img/icecreamcups.jpg';
 import icecreamtruck from '../img/body-img/icecreamtruck.jpg';
 import greatericecream from '../img/body-img/greatericecream.jpg';
@@ -41,7 +41,7 @@ import tree from '../img/body-img/tree.png';
 import orchids from '../img/body-img/orchids.png';
 import ferriswheel from '../img/body-img/ferriswheel.png';
 import abstract from '../img/body-img/abstract.png';
-import AOS from 'aos';
+// import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 

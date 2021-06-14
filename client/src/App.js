@@ -16,13 +16,12 @@ export default class App extends Component {
       <div>
       <BrowserRouter>
       <Navbar />
-      {/* <CarouselNew/>      */}
-      {/* <Route exact path='/' component= { DemoCarousel } /> */}
-      <Route path='/about' component= { About } />
-      <Route path='/attractions' component= { Attractions } />
-      <Route path='/Covid' component= { Covid } />
-      <Route path='/' component= { CarouselNew } />
-      <Route path='/contact' component= { ContactForm }/>
+    
+      <Route exact path='/about' component= { About } />
+      <Route exact path='/attractions' component= { Attractions } />
+      <Route exact path='/Covid' component= { Covid } />
+      <Route exact path='/' component= { CarouselNew } />
+      <Route exact path='/contact' component= { ContactForm }/>
       <Footer/>
       </BrowserRouter>
       </div>

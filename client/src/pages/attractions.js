@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-// import Card from 'react-bootstrap/Card';
 import {BACKEND_URL} from '../config'
 // import '../styles/Attractions.css'
 // import FooterHome from '../components/FooterHome'

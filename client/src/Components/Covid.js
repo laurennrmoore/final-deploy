@@ -10,7 +10,7 @@ export default class Covid extends Component{
     render(){
     return (
         <div className="container">
-        <div><h4 className="center" id="aboutTitle"></h4>
+        <div><h4 className="center" id="aboutTitle">Covid</h4>
          
         <center>
         <video controls autostart autoPlay src={covidflyer} type="video/mp4" height={300} width={300} />
