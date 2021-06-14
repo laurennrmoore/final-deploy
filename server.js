@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static('client/build'))
 
-const uri = "mongodb+srv://mjarman1:Indians40@cluster0.wh36m.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri = "mongodb+srv://mjarman1:Kable@cluster0.wh36m.mongodb.net/AttractionsCap?retryWrites=true&w=majority";
 
 mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true }
 );

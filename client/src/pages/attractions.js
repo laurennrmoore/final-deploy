@@ -10,12 +10,12 @@ const Attraction = (props) => {
         <div className='allAttractions'>
             <div className='attractionsCard'>
                 <div className='cardImage'>
-                    <img className='attractionImage'src={props.attraction.imageURL} alt='attraction' />
+                    <img className='attractionImage' src={props.attraction.image} alt='attraction' />
                 </div>
                 <div>
                     <div className='text-name'>{props.attraction.name}</div>
                     <div className='text-link'>
-                        <Link className='link-details' Link to={props.attraction._id}>Details</Link>
+                        <Link className='link-details'  to={props.attraction._id}>Details</Link>
                     </div>
                     <div className='website'>
                         <a className='link-site' href={props.attraction.website} target="_blank" rel="noreferrer">Website</a>
