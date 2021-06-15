@@ -3,8 +3,7 @@ const Schema = mongoose.Schema
 
 const theAttractionSchema = new Schema({
     name: {
-        type: String,
-        required: true
+        type: String
     },
     description: {
         type: String
