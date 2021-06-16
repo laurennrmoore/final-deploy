@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 // import Footer from './Footer';
 import './play.css';
 
+import { BiHeartCircle } from "react-icons/bi";
 import chilidish from '../img/body-img/chilidish.jpg';
 import chiliver from '../img/body-img/chiliver.jpg';
 // import chilidinner from '../img/body-img/chilidinner.jpg';
@@ -50,11 +51,19 @@ export default class Play extends Component{
   render(){
     return (
         <div className="body-container" data-aos="fade-right"> 
-        <h1 className="queenCity">Explore The Queen city. Be sure to <span> eat, shop & play</span></h1>
+
+               <div className="border-container">
+                    <div className="border-bg-text">
+                       <h1 className="queenCity"><BiHeartCircle color="red" width="1.8em"></BiHeartCircle>
+                       The Queen city. Be sure to <span> eat, shop & play</span><BiHeartCircle color="red" width="1.8em"></BiHeartCircle></h1>
+                    </div>
+                </div> 
+
+          {/* EAT section */}
           <div className="eat-container">
-          <img className="body-img" id="swirl" data-aos="fade-left" alt='' src= { swirl} />
+          <img className="body-img" id="swirl" data-aos="fade-left" alt='' src= { swirl } />
           <h1 className="easy-header" data-aos="fade-left"><br/>EAT</h1>
-          <p>Enjoy a traditional lei greeting and experience a luau on Oahu. Hosted by Chief Sielu, Original World Fire Knife Dance Champion, this event provides the ideal opportunity to immerse yourself in island culture. Watch a Polynesian show, learn headband weaving, or take a hula lesson, before indulging in a Hawaiian feast, including pineapple glazed chicken and kalua pork. Upgrade to include priority access and convenient pickup, for a hassle-free experience.</p>
+          <p className="eat-text">The flavors of Cincinnati are so vast that we give them a yearly celebration. The Taste of Cincinnati, is a local food fest of restaurants with covered booths, serving signature foods at downtown's Fountain Square. Here, hungry foodies buy, nibble and drink and roam safely; as city streets are blocked off during this event. Currently, the Taste of Cincinnati staff is planning its 2022 comeback. We welcome you to enjoy our restaurants <i>before</i> then though.</p>
 
                <img className="body-img" id="A" alt='' src= { chilidish } />
                <img className="body-img" id="B" alt='' src= { chiliver } />
@@ -68,6 +77,7 @@ export default class Play extends Component{
 
           </div>
 
+              {/* SHOP Section */}
           <div className="shop-container">
              
           <div data-aos="fade-right">
@@ -78,7 +88,7 @@ export default class Play extends Component{
           
           <div data-aos="fade-left">
           <h1 data-aos="fade-up">SHOP</h1>
-          <p>Enjoy a traditional lei greeting and experience a luau on Oahu. Hosted by Chief Sielu, Original World Fire Knife Dance Champion, this event provides the ideal opportunity to immerse yourself in island culture. Watch a Polynesian show, learn headband weaving, or take a hula lesson, before indulging in a Hawaiian feast, including pineapple glazed chicken and kalua pork. Upgrade to include priority access and convenient pickup, for a hassle-free experience.</p><br/>
+          <p className="shop-text">Shop and find hidden treasures in and around Cincinnati. Your inner fashionista awaits you at local shopping favorites like Kenwood Mall, Rookwood Pavilion, Saks Fifth Avenue, and Premium Outlets Mall. You’ll find name brands that you know, and one-of-a-kind items that you’ll love. Locals love the walkable, easy vibe of Over The Rhine. It's bright and breezy shops like Mica, The Naitive One, Kismet and Idlewild Woman give an uptown experience in this downtown hotspot.</p><br/>
 
                <img className="body-img" id="F" alt='' src= { Shopcincyshirts } />
                <img className="body-img" id="G" alt='' src= { ShopLaneKate } />
@@ -97,6 +107,9 @@ export default class Play extends Component{
               
 
           </div>
+
+
+             {/* PLAY section */}
       <div data-aos="fade-left">
           <div className="play-container">
           <div className="flowerstext" data-aos="fade-left">
@@ -106,7 +119,7 @@ export default class Play extends Component{
          </div>
                <h1 className="play-header" data-aos="fade-up">PLAY</h1>
 
-               <p>Enjoy a traditional let greeting and experience a luau on Oahu. Hosted by Chief Sielu, Original World Fire Knife Dance Champion, this event provides the ideal opportunity to immerse yourself in island culture. Watch a Polynesian show, learn headband weaving, or take a hula lesson, before indulging in a Hawaiian feast, including pineapple glazed chicken and kalua pork. Upgrade to include priority access and convenient pickup, for a hassle-free experience.
+               <p className="play-text">From the thrills of Kings Island, to the natural beauty of our parks, museums and sports arenas, Cincinnati has something for you to enjoy. Whether you have a young family, are a sports fan or love the idea of indoor skydiving; adventure awaits you. There are annual celebrations like Oktoberfest and Cincinnati Music Fest, that draw national crowds every year, and family fun year-round.One popular family-friendly hub is the famed Museum Center, just outside of downtown. It holds the Omnimax Theater, Children’s Museum, The Museum of Natural History and The Holocaust Museum - all under its stylized rotunda. Parky’s farm is another family favorite, near Winton Woods park. It boasts 100 acres in nature with a petting zoo, hay rides and education exhibits without getting too wild! For the sports fans among us, Cincinnati recently welcomed major league soccer. Naturally, we added the accompanying FQL sports stadium on the West End. This for our soccer fans, just minutes from Paul Brown Stadium, home of Bengals football and Great American Ballpark, where the Reds play baseball.
               </p>
 
                <img className="body-img" id="ornament" alt='' src= { ornament } />

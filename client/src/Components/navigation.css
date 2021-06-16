@@ -4,28 +4,27 @@
     flex-direction: row;
     justify-content: space-evenly;
     width: 100vw;
-    font-size: 17px;
+    font-size: 20px;
     list-style-type: none;
     background-color: #346751;
     text-decoration: none;
     margin-bottom: 0px;
+    margin-left: -20px;
+    
+    
   };
 
-  .navlinks a{
+  .navlinks a {
   text-decoration: none;
   }
 
-  #cincylogo {
-    width: 50px;
-    margin-left: -250px;
-  }
 
-.navlinks a:visited{
+.navlinks a:visited {
 color: #fff;
 }
 
-.navlinks a:hover{
-background-color: rgb(245, 234, 231);
+.navlinks a:hover {
+background-color: #125D98;
 margin-left: 0px;
 }
 
@@ -34,23 +33,36 @@ height: 10px;
 }
 
 
-.navlinks li{
-height: 50px;
+
+.navlinks li {
+height: 100px;
 width: 50px;
 white-space: nowrap;
-margin-bottom: 5px;
 font-family: cursive;
 }    
 
+a.nav-titles {
+  display: flex;
+  position: relative;
+  top: 30px;
+}
 
- div.container{
+ div.container {
  margin-left: 0px;
  }
 
 
-
-  .cincylogo{
-  display: flex;
-  margin-left: -60px;
-  margin-top: 0px;
+img#orangeLogofinal.orangeLogofinal {
+    display: flex;
+    margin-left: -170px;
+    margin-top: 12px;
+    box-shadow: 2px 2px 20px 3px black;
+    height: 65px;
+    width: 70px;
+    transition: all .2s ease-in-out;
+    
+    }
+  
+  .orangeLogofinal:hover{
+    transform: scale(1.5);
   }

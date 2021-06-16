@@ -1,7 +1,68 @@
-body{
-background-color: khaki;    
+div.section-title{
+    background-image: url('./img/contact-img/sky.jpg');
 }
 
-.h2{
-text-decoration-color: black;    
+.headline-contact {
+    color: blue;
+    
 }
+
+
+
+h1#sky-title {
+    
+    color: rgb(62, 94, 155);
+    text-shadow: 5px 5px 5px wheat;
+    font-size: 82px;
+    font-weight: bold;
+    margin-left: 80px;
+    
+}
+
+.title {
+color: blue;   
+margin-top: 20px;
+} 
+
+.text {
+    color: #fff;
+    font-size: 18px;
+    margin: 20px;
+}
+
+#subject, #email, #name{
+    border-radius: 8px;
+    margin-top: 18px;
+}
+
+#message {
+    width: 380px;
+    height: 125px;
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.btn-submit {
+    border-radius: 8px;
+    background-color: #346751;
+}
+
+img#sky-image.bg-container-img{
+    height:auto;
+    width:100vw;
+    justify-content: center;
+}
+
+#contact-container {
+    border-radius: 8px;
+    background: cadetblue;
+    border: solid 3px #fff;
+    box-shadow: 30px 30px 30px #293B5F;
+    height:auto;
+    margin-left: 550px;
+    margin-top: -10px;
+    width:50%;
+    text-align: center;
+}
+
+

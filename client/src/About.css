@@ -13,12 +13,12 @@ img.bg-about-img {
 } 
 
 .about-container{
-    background: #39a6a3;
+    background: #295f5d;
     animation: mymove 5s infinite;
 }
 @keyframes  mymove {
-    from {background-color: lightcoral;}
-    to {background-color:lightskyblue;}
+    from {background-color: #87A7B3;}
+    to {background-color:#766161;}
 }
 
 #about-img{

@@ -3,7 +3,7 @@
 
 .footer-container {
   padding: 20px;
-  background-color:ivory;
+  background-color:#346751;
  
 }
 
@@ -18,7 +18,7 @@ div#sponsor-container {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: #fff;
+  background-color: #346751;
 }
 
 
@@ -32,28 +32,23 @@ div#sponsor-container {
 }
 
 #creators {
-  color: #47597e;
+  color: #233E8B;
 
 }
-#Lauren :hover {
-  background-color: grey;
+
+#Lauren :hover, #Marquis :hover, #Mona :hover {
+  color: grey;
 }
-
-#Marquis :hover {
-  background-color: grey;
-}
-
- #Mona :hover {
-  background-color: grey;
-} 
-
-/* .Lauren, .Marquis, .Mona {
-  color: #3b14a7;
-} */
-
+ 
 
 #footer-text {
   color: #2541b2;
+}
+
+.orangeLogofinal {
+  margin-left: 550px;
+  width: 80px;
+  box-shadow: 2px 2px 20px 3px black;
 }
 
    

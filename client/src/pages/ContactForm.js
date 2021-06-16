@@ -1,4 +1,7 @@
-import React from 'react'
+import React, {useState} from 'react'
+import '../contact.css';
+
+import sky from "../img/contact-img/sky.jpg";
 
 
 export default class Contact extends React.Component {
@@ -78,13 +81,22 @@ export default class Contact extends React.Component {
 
 render() {
   return (
-      <div className="section">
-          <div className="container">
+<div className="section">
+          <div className="containercontact">
+            {/* <img className="bg-contact-img" id="sky-image" alt='' src= { sky } /> */}
               <div className="row">
                   <div className="col-md-12">
                       <div className="section-title">
-                          <h2 className="title">Contact Us</h2>
-                          <p>Let us know what you think! In order to provide better service,
+
+                      <div className="bg-container" id="sky-container">
+                      
+                           <h1 id="sky-title">Sky isn't limit<br /> to reach us</h1>
+                      </div>
+                     <div className="contact-container" id="contact-container">
+                   
+                          <h2 className="title">Shout us here!</h2>
+
+                          <p className="text">Let us know what you think! In order to provide better service,<br />
                                please do not hesitate to give us your feedback. Thank you.</p><hr/>
                           <form id="contact-form" 
                         //   onSubmit={this.submitEmail.bind(this)} 
@@ -118,7 +130,8 @@ render() {
                                 //  onChange= {this.onMsgChange.bind(this)} 
                                 />
                           </div>
-                          <button type="submit" className="primary-btn submit">Submit</button>
+                          <button className="btn-submit" type="submit" >Send now</button>
+                          <p className="text"> eat.shop.play: <br />1819 Reading road, Cincinnati, Ohio 45255</p>
                           </form>
                       </div>
                   </div>
@@ -127,6 +140,7 @@ render() {
 
           </div>
       </div>
+ </div>
   );
 }
 }
