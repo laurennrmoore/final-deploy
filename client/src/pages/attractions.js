@@ -2,21 +2,18 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import {BACKEND_URL} from '../config'
-// import '../styles/Attractions.css'
-// import FooterHome from '../components/FooterHome'
+import "../attractions.css";
+
 
 const Attraction = (props) => {
     return (
         <div className='allAttractions'>
             <div className='attractionsCard'>
                 <div className='cardImage'>
-                    <img className='attractionImage' src={props.attraction.image} alt='attraction' />
+                    <img className='attractionImage' src={props.attraction.imageURL} alt='attraction' />
                 </div>
                 <div>
                     <div className='text-name'>{props.attraction.name}</div>
-                    <div className='text-link'>
-                        <Link className='link-details'  to={props.attraction._id}>Details</Link>
-                    </div>
                     <div className='website'>
                         <a className='link-site' href={props.attraction.website} target="_blank" rel="noreferrer">Website</a>
                     </div>

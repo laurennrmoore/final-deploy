@@ -20,8 +20,8 @@ const Navbar = () => {
                         <li><NavLink to="/"><img className="orangeLogofinal" id="orangeLogofinal" alt='' src= { orangeLogofinal } /></NavLink></li> 
                         <li><NavLink style={{textDecoration: 'none'}}to="/Attractions" className="nav-titles">Attractions</NavLink></li>
                           <li><NavLink style={{textDecoration: 'none'}}to="/Covid" className="nav-titles">Covid-19</NavLink></li>
-                          <li><NavLink style={{textDecoration: 'none'}}to="/About" className="nav-titles">About us</NavLink></li>
-                          <li><NavLink style={{textDecoration: 'none'}}to="/contact" className="nav-titles">Contact us</NavLink></li>
+                          <li><NavLink style={{textDecoration: 'none'}}to="/About" className="nav-titles">About Us</NavLink></li>
+                          <li><NavLink style={{textDecoration: 'none'}}to="/contact" className="nav-titles">Contact Us</NavLink></li>
                      
                     </ul>
 

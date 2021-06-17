@@ -8,13 +8,13 @@ router.route('/add').post((req, res) => {
     const name = req.body.name
     const description = req.body.description
     const website = req.body.website
-    const image = req.body.image
+    const image = req.body.imageURL
     const location = req.body.location
     const newAttraction = new Attraction ({
         name,
         description,
         website,
-        image,
+        imageURL,
         location
         })
     newAttraction.save()
@@ -48,7 +48,7 @@ router.route('/:id').get((req, res) => {
             attraction.name = req.body.name
             attraction.description = req.body.description
             attraction.website = req.body.website
-            attraction.image = req.body.image
+            attraction.image = req.body.imageURL
             attraction.location = req.body.location
         })
     .catch((err) => {

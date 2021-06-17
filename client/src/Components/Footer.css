@@ -32,17 +32,17 @@ div#sponsor-container {
 }
 
 #creators {
-  color: #233E8B;
-
+  color: black;
+ text-align: center;
 }
 
 #Lauren :hover, #Marquis :hover, #Mona :hover {
-  color: grey;
+  color: black;
 }
  
 
 #footer-text {
-  color: #2541b2;
+  color: black;
 }
 
 .orangeLogofinal {

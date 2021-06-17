@@ -90,14 +90,13 @@ render() {
 
                       <div className="bg-container" id="sky-container">
                       
-                           <h1 id="sky-title">Sky isn't limit<br /> to reach us</h1>
+                           <h1 id="sky-title">The Sky isn't the limit<br /> to reach us...</h1>
                       </div>
                      <div className="contact-container" id="contact-container">
                    
-                          <h2 className="title">Shout us here!</h2>
+                          <h2 className="title">Contact Us here!</h2>
 
-                          <p className="text">Let us know what you think! In order to provide better service,<br />
-                               please do not hesitate to give us your feedback. Thank you.</p><hr/>
+                          <p className="text">Let us know what you think! Share your feedback with us here. Thank you.</p><hr/>
                           <form id="contact-form" 
                         //   onSubmit={this.submitEmail.bind(this)} 
                               method="POST">
@@ -131,7 +130,7 @@ render() {
                                 />
                           </div>
                           <button className="btn-submit" type="submit" >Send now</button>
-                          <p className="text"> eat.shop.play: <br />1819 Reading road, Cincinnati, Ohio 45255</p>
+                          <p className="text"> eat.shop.play: <br />1819 Reading Road<br></br> Cincinnati, Ohio 45255</p>
                           </form>
                       </div>
                   </div>

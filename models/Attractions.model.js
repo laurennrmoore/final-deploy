@@ -8,7 +8,7 @@ const theAttractionSchema = new Schema({
     description: {
         type: String
     },
-    image: {
+    imageURL: {
         type: String
     },
     website: {

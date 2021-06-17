@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import Play from '../Components/Play';
 
-import AdiscoveredPlantText from '../img/carousel-img/AdiscoveredPlantText.jpg';
-import Bconey from '../img/carousel-img/Bconey.jpg';
-import Ccincinnatioh from '../img/carousel-img/Ccincinnatioh.jpg';
+// import AdiscoveredPlantText from '../img/carousel-img/AdiscoveredPlantText.jpg';
+// import Bconey from '../img/carousel-img/Bconey.jpg';
+import ParkMiller from '../img/carousel-img/Park-Miller.jpg';
 import Suspensionbridge from '../img/carousel-img/Suspensionbridge.jpg';
 import DfountainSquare from '../img/carousel-img/DfountainSquare.jpg';
 import Waterlights from '../img/carousel-img/Waterlights.jpg';
@@ -37,7 +37,7 @@ class CarouselNew extends Component {
           <div>
           <Carousel data-aos="fade-right">
 
-            <div>
+            {/* <div>
                 <img alt='' src= { AdiscoveredPlantText } />
                 <p className="legendA"></p>
             </div>
@@ -47,11 +47,11 @@ class CarouselNew extends Component {
                  <img alt='image' src= { Bconey } />
                      <p className="legend"> Coney Island</p>
                </div>
-            </div>
+            </div> */}
 
 
             <div>
-                <img alt='image' src= { Ccincinnatioh } />
+                <img alt='image' src= { ParkMiller } />
                 <p className="legend">Cincinnati-Covington Bridge was the longest suspension bridge in the world</p>
             </div>
 
